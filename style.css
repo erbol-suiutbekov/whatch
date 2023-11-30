@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "league spartan", sans-serif;
+}
+#hero {
+  background: #eaeaea;
+  padding: 100px;
+}
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content span {
+  font-size: 24px;
+  color: #161515 font;
+}
+
+.content h1 {
+  font-size: 250px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.content p {
+  font-size: 32px;
+  max-width: 570px;
+
+  font-weight: 300;
+  line-height: 155%;
+}
+.buttons {
+  display: flex;
+  margin: 60px;
+}
+.buttons button {
+  padding: 30px 73px;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+}
+.black {
+  background: #161515;
+  color: white;
+}
+.white {
+  padding: 30px 27px !important;
+}
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 43px 0 0 0;
+}
+.popular h1 {
+  color: #000;
+  font-size: 72px;
+  font-weight: 400;
+  padding: 0 0 84px 0;
+}
+.watch1 {
+  width: 417px;
+  height: 630px;
+  background: #f8f8f8;
+}
+.watch1 img {
+  padding: 110px 65px 110px 65px;
+}
+.popular2 h2 {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  padding: 62px 0 17px 0;
+}
+.popular2 p {
+  color: var(--, #161515);
+  font-size: 32px;
+  font-weight: 300;
+  max-width: 522px;
+  text-align: center;
+  padding: 0 0 84px 0;
+}
+.popular3 {
+  width: 496px;
+  height: 630px;
+  background: #f8f8f8;
+}
+.popular3 img {
+  padding: 65px 121px 65px 110px;
+}
+.popular4 h3 {
+  color: var(--, #161515);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 67px 0 17px 0;
+}
+.popular4 p {
+  color: var(--, #161515);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  max-width: 511px;
+}
+.popular5 h4 {
+  color: var(--, #161515);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 59px 0 9px 0;
+}
+.popular5 hr {
+  width: 170.025px;
+  height: 1px;
+  background: #707070;
+  text-align: center;
+}
+.popular5 p {
+  color: var(--, #161515);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 515px;
+  padding: 49px 0 0 0;
+}
+.popular5 a {
+  color: #bb8b5d;
+  font-size: 24px;
+  font-weight: 500;
+}
